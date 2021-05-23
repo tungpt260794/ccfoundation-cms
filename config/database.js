@@ -24,7 +24,8 @@ module.exports = ({ env }) => ({
     default: {
       connector: "mongoose",
       settings: {
-        uri: env("DATABASE_URI"),
+        // uri: env("DATABASE_URI"),
+        uri: "mongodb+srv://tungpt260794:Phanthanhtung94!@ccfoundation.s66w2.mongodb.net/ccfoundation?retryWrites=true&w=majority",
       },
       options: {
         ssl: true,
