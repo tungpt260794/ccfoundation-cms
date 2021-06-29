@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volunteers",
+  "info": {
+    "name": "Volunteer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameRegister": {
+      "type": "string",
+      "required": true
+    },
+    "addressRegister": {
+      "type": "string",
+      "required": true
+    },
+    "emailRegister": {
+      "type": "email",
+      "required": true
+    },
+    "phoneRegister": {
+      "type": "string",
+      "required": true
+    },
+    "birthdayRegister": {
+      "type": "date",
+      "required": true
+    },
+    "genderRegister": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE"
+      ],
+      "default": "MALE"
+    },
+    "hearAboutUsRegister": {
+      "type": "string",
+      "required": true
+    },
+    "categoryApplyProgram": {
+      "type": "string",
+      "required": true
+    },
+    "workedProgram": {
+      "type": "string",
+      "required": true
+    },
+    "timeProgram": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -12,22 +12,75 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "fullName": {
+    "nameRegister": {
       "type": "string",
       "private": false,
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
-    "phone": {
+    "addressRegister": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
-    "email": {
+    "emailRegister": {
       "type": "email",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
-    "content": {
+    "phoneRegister": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "websiteRegister": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "nameProject": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "descriptionProject": {
       "type": "text",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
+    },
+    "estimatedDateCompleteProject": {
+      "type": "date",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "potentialImpactProject": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "organizationStrengthPriorityProject": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "fundraisingPlanProject": {
+      "type": "text",
+      "pluginOptions": {}
+    },
+    "additionalInformationProject": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "amountBudget": {
+      "type": "biginteger",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "totalBudget": {
+      "type": "biginteger",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
